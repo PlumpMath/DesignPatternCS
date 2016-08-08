@@ -2,6 +2,15 @@
 
 #### From. http://www.dotnet-tricks.com
 
+## Sumary
+### Behavioral
+#### Command
+#### Chain of command
+### Creational
+#### Singleton
+#### Prototype
+#### Abstract factory
+
 ## Behavioral Patterns
 
 ### Command
