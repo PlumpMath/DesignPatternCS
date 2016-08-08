@@ -1,10 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-/// <summary>
+﻿/// <summary>
 /// Abstract Factory - This is an interface which is used to create abstract product
 /// Concreate Factory - This is a class which implements the AbstractFactory interfacee to create concrete products
 /// AbstractProduct - This is an interface which declares a type of product

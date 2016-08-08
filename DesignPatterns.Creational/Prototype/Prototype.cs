@@ -1,10 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-/// <summary>
+﻿/// <summary>
 /// Prototye patterns is used to create a duplicate object or clone of the current object to enhance performance. 
 /// This patern is used when creation of object is costly or complex.
 /// For Example: An object is to be  created after a costly database operation. 

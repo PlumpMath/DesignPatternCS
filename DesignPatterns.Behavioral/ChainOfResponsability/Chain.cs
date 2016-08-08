@@ -1,9 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
 
 /// <summary>
 /// The chain of responsibility pattern is used to process a list or chain of various types of request and each of them may be handle by a different handler.

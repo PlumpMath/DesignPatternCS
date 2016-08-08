@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 14
 VisualStudioVersion = 14.0.25123.0
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UnitTests", "UnitTests\UnitTests.csproj", "{35F36ED0-ED26-43D5-9481-048BC419033C}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Program", "UnitTests\Program.csproj", "{35F36ED0-ED26-43D5-9481-048BC419033C}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DesignPatterns.Creational", "DesignPatterns.Creational\DesignPatterns.Creational.csproj", "{65DDB731-3229-4934-9BB0-1CF41D8B04AA}"
 EndProject

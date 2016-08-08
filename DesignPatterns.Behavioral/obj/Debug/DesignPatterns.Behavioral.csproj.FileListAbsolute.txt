@@ -3,3 +3,8 @@ W:\vs-2015\DesignPatterns\DesignPatterns.Behavioral\bin\Debug\DesignPatterns.Beh
 W:\vs-2015\DesignPatterns\DesignPatterns.Behavioral\obj\Debug\DesignPatterns.Behavioral.csprojResolveAssemblyReference.cache
 W:\vs-2015\DesignPatterns\DesignPatterns.Behavioral\obj\Debug\DesignPatterns.Behavioral.dll
 W:\vs-2015\DesignPatterns\DesignPatterns.Behavioral\obj\Debug\DesignPatterns.Behavioral.pdb
+W:\GitHub\DesinPatternCS\DesignPatterns.Behavioral\bin\Debug\DesignPatterns.Behavioral.dll
+W:\GitHub\DesinPatternCS\DesignPatterns.Behavioral\bin\Debug\DesignPatterns.Behavioral.pdb
+W:\GitHub\DesinPatternCS\DesignPatterns.Behavioral\obj\Debug\DesignPatterns.Behavioral.csprojResolveAssemblyReference.cache
+W:\GitHub\DesinPatternCS\DesignPatterns.Behavioral\obj\Debug\DesignPatterns.Behavioral.dll
+W:\GitHub\DesinPatternCS\DesignPatterns.Behavioral\obj\Debug\DesignPatterns.Behavioral.pdb

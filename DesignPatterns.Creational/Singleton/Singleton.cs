@@ -1,10 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-/// <summary>
+﻿/// <summary>
 /// Singleton pattern is one of the simplest patterns. This ensures that a class has only one instance and provides a global point of access to it
 /// </summary>
 
