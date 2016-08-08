@@ -4,7 +4,7 @@
 
 ## Behavioral Patterns
 
-### 1 - Command
+### Command
 
 In this pattern a request is wrapped nder an object as a command and passed to invoker object. Invoker object ass the command to the appropriate object which can handle it and that object executes the command.
 
@@ -16,7 +16,7 @@ This handles the request in traditional ways like as queuing and callbacks. This
 4. **ConcreteComman** This is a class that implements the Execute operation by invoking operations on the receiver
 5. **Receiver** This is a class that performs the Action associated with the request
 
-### 2 - Chain of command
+### Chain of command
 
 The chain of responsibility pattern is used to process a list or chain of various types of request and each of them may be handle by a different handler. This pattern decouples sender and receiver of a request vased on type of request.
 
@@ -28,14 +28,14 @@ In this pattern, normaly each receiver(handler) contains reference to anoher ree
 
 ## Creational Patterns
 
-### 1 - Singleton 
+### Singleton 
 
 Singleton pattern is one of the simplest patterns. This ensures that a class has only one instance and provides a global point of access to it
 
 1. **Singleton** This is a class which is responsible for creating and maintaining its own unique instance.
 
 
-### 2 - Prototype
+### Prototype
 
 Prototye patterns is used to create a duplicate object or clone of the current object to enhance performance. This patern is used when creation of object is costly or complex.
 
@@ -44,7 +44,7 @@ For Example: An object is to be  created after a costly database operation. We c
 1. **Prototype** This is an interface which is used for the types of object that can be cloned itself.
 2. **ConcretePrototype** This is a class which implements the Prototype interface for cloning itself.
 
-### 3 - Abstract Factory
+### Abstract Factory
 
 Abstract Factory patterns acts a super-factory which creates other factories. This pattern is also called as Factory of factories. 
 
