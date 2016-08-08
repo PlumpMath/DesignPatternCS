@@ -47,6 +47,8 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="ChainOfResponsability\Chain.PNG" />
+    <Content Include="ChainOfResponsability\Sample.PNG" />
     <Content Include="Command\Command.PNG" />
     <Content Include="Command\Sample.PNG" />
   </ItemGroup>
