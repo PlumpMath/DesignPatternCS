@@ -1,0 +1,15 @@
+W:\vs-2015\DesignPatterns\UnitTests\bin\Debug\UnitTests.exe.config
+W:\vs-2015\DesignPatterns\UnitTests\bin\Debug\UnitTests.exe
+W:\vs-2015\DesignPatterns\UnitTests\bin\Debug\UnitTests.pdb
+W:\vs-2015\DesignPatterns\UnitTests\bin\Debug\DesignPatterns.Behavioral.dll
+W:\vs-2015\DesignPatterns\UnitTests\bin\Debug\DesignPatterns.Creational.dll
+W:\vs-2015\DesignPatterns\UnitTests\bin\Debug\DesignPatterns.Structural.dll
+W:\vs-2015\DesignPatterns\UnitTests\bin\Debug\DesignPatterns.Behavioral.pdb
+W:\vs-2015\DesignPatterns\UnitTests\bin\Debug\DesignPatterns.Creational.pdb
+W:\vs-2015\DesignPatterns\UnitTests\bin\Debug\DesignPatterns.Structural.pdb
+W:\vs-2015\DesignPatterns\UnitTests\obj\Debug\UnitTests.csprojResolveAssemblyReference.cache
+W:\vs-2015\DesignPatterns\UnitTests\obj\Debug\UnitTests.exe
+W:\vs-2015\DesignPatterns\UnitTests\obj\Debug\UnitTests.pdb
+W:\GitHub\DesinPatternCS\UnitTests\bin\Debug\UnitTests.exe.config
+W:\GitHub\DesinPatternCS\UnitTests\obj\Debug\UnitTests.exe
+W:\GitHub\DesinPatternCS\UnitTests\obj\Debug\UnitTests.pdb

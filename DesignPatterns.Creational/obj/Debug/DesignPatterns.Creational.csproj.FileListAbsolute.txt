@@ -1,0 +1,5 @@
+W:\vs-2015\DesignPatterns\DesignPatterns.Creational\bin\Debug\DesignPatterns.Creational.dll
+W:\vs-2015\DesignPatterns\DesignPatterns.Creational\bin\Debug\DesignPatterns.Creational.pdb
+W:\vs-2015\DesignPatterns\DesignPatterns.Creational\obj\Debug\DesignPatterns.Creational.csprojResolveAssemblyReference.cache
+W:\vs-2015\DesignPatterns\DesignPatterns.Creational\obj\Debug\DesignPatterns.Creational.dll
+W:\vs-2015\DesignPatterns\DesignPatterns.Creational\obj\Debug\DesignPatterns.Creational.pdb

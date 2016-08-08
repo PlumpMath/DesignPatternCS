@@ -1,0 +1,5 @@
+W:\vs-2015\DesignPatterns\DesignPatterns.Structural\bin\Debug\DesignPatterns.Structural.dll
+W:\vs-2015\DesignPatterns\DesignPatterns.Structural\bin\Debug\DesignPatterns.Structural.pdb
+W:\vs-2015\DesignPatterns\DesignPatterns.Structural\obj\Debug\DesignPatterns.Structural.csprojResolveAssemblyReference.cache
+W:\vs-2015\DesignPatterns\DesignPatterns.Structural\obj\Debug\DesignPatterns.Structural.dll
+W:\vs-2015\DesignPatterns\DesignPatterns.Structural\obj\Debug\DesignPatterns.Structural.pdb
