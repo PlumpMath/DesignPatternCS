@@ -4,17 +4,15 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{35F36ED0-ED26-43D5-9481-048BC419033C}</ProjectGuid>
-    <OutputType>Exe</OutputType>
+    <ProjectGuid>{4EA1820F-5876-4C4A-8CBF-1A92233A6A64}</ProjectGuid>
+    <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>UnitTests</RootNamespace>
-    <AssemblyName>UnitTests</AssemblyName>
+    <RootNamespace>DesignPatterns</RootNamespace>
+    <AssemblyName>DesignPatterns</AssemblyName>
     <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
-    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
-    <PlatformTarget>AnyCPU</PlatformTarget>
     <DebugSymbols>true</DebugSymbols>
     <DebugType>full</DebugType>
     <Optimize>false</Optimize>
@@ -24,7 +22,6 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
-    <PlatformTarget>AnyCPU</PlatformTarget>
     <DebugType>pdbonly</DebugType>
     <Optimize>true</Optimize>
     <OutputPath>bin\Release\</OutputPath>
@@ -43,17 +40,34 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Program.cs" />
+    <Compile Include="Behavioral\ChainOfResponsability\Chain.cs" />
+    <Compile Include="Behavioral\ChainOfResponsability\Sample.cs" />
+    <Compile Include="Behavioral\Command\Command.cs" />
+    <Compile Include="Behavioral\Command\Sample.cs" />
+    <Compile Include="Creational\AbstractFactory\Factory.cs" />
+    <Compile Include="Creational\AbstractFactory\Sample.cs" />
+    <Compile Include="Creational\Prototype\Prototype.cs" />
+    <Compile Include="Creational\Prototype\Sample.cs" />
+    <Compile Include="Creational\Singleton\Sample.cs" />
+    <Compile Include="Creational\Singleton\Singleton.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="App.config" />
+    <Content Include="Behavioral\ChainOfResponsability\Chain.PNG" />
+    <Content Include="Behavioral\ChainOfResponsability\Sample.PNG" />
+    <Content Include="Behavioral\Command\Command.PNG" />
+    <Content Include="Behavioral\Command\Sample.PNG" />
+    <Content Include="Creational\AbstractFactory\Factory.PNG" />
+    <Content Include="Creational\AbstractFactory\Sample.PNG" />
+    <Content Include="Creational\Prototype\Prototype.PNG" />
+    <Content Include="Creational\Prototype\Sample.PNG" />
+    <Content Include="Creational\Singleton\Sample.PNG" />
+    <Content Include="Creational\Singleton\Singleton.PNG" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\DesignPatterns\DesignPatterns.csproj">
-      <Project>{4ea1820f-5876-4c4a-8cbf-1a92233a6a64}</Project>
-      <Name>DesignPatterns</Name>
-    </ProjectReference>
+    <Folder Include="Creational\Builder\" />
+    <Folder Include="Creational\FactoryMethod\" />
+    <Folder Include="Structural\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

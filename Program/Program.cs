@@ -63,7 +63,7 @@ namespace UnitTests
             VehiculeFactory hero = new HondaFactory();
             VehiculeClient heroclient = new VehiculeClient(hero, "Regular");
 
-            Console.WriteLine("****** Honda ******");
+            Console.WriteLine("****** Hero ******");
             Console.WriteLine(heroclient.GetBikeName());
             Console.WriteLine(heroclient.GetScooterName());
 
