@@ -27,8 +27,8 @@
  3. ~~Composite: Simple and composite objects tree~~
  4. ~~Decorator: Dynamically add responsibilities to objects~~
  5. ~~Facade: Class that represents subclasses and subsystems~~
- 6. ~~Flyweight: Minimize memory usage by sharing as much data as possible with similar objects~~
- 7. ~~Proxy: Object that represents another object~~
+ 6. Flyweight: Minimize memory usage by sharing as much data as possible with similar objects
+ 7. Proxy: Object that represents another object
  
 ## Behavioral Patterns
 
