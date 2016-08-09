@@ -9,7 +9,7 @@
 /// Client - THis is a class which use AbstractFactory and AbstractProduct interfaces to create a family of related objects
 /// </summary>
 
-namespace DesignPatterns.Creational
+namespace DesignPatterns.Creational.AbstractFactory
 {
     public interface AbsractFactory
     {

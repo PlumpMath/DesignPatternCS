@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 
-namespace DesignPatterns.Behavioral.Sample
+namespace DesignPatterns.Behavioral.Command.Sample
 {
     public interface ICommand
     {

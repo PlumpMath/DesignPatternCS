@@ -8,7 +8,7 @@
 /// ConcretePrototype This is a class which implements the Prototype interface for cloning itself.
 /// </summary>
 
-namespace DesignPatterns.Creational
+namespace DesignPatterns.Creational.Prototype
 {
     public interface Prototype
     {

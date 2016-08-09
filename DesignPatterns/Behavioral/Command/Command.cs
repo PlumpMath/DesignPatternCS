@@ -10,9 +10,16 @@
 /// Command - This is an interface which specifies the Execute operation
 /// ConcreteComman - This is a class that implements the Execute operation by invoking operations on the receiver
 /// Receiver - This is a class that performs the Action associated with the request
+/// 
+/// When to use it?
+/// Need to implement callback functionalities.
+/// Need to support Redo and Undo functionality for commands.
+/// Sending requests to different receivers which can handle it in different ways.
+/// Need for auditing and logging of all changes via commands.
+
 /// </summary>
 
-namespace DesignPatterns.Behavioral
+namespace DesignPatterns.Behavioral.Command
 { 
     public class Client
     {

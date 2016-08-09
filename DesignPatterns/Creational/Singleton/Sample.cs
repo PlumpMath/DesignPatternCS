@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace DesignPatterns.Creational.Sample
+namespace DesignPatterns.Creational.Singleton.Sample
 {
     public class Singleton
     {

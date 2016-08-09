@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace DesignPatterns.Behavioral.Sample
+namespace DesignPatterns.Behavioral.ChainOfResponsability.Sample
 {
     public class LoanEventArgs : EventArgs
     {

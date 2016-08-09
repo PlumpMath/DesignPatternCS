@@ -4,7 +4,7 @@
 /// Singleton This is a class which is responsible for creating and maintaining its own unique instance.
 /// </summary>
 
-namespace DesignPatterns.Creational
+namespace DesignPatterns.Creational.Singleton
 {
     //eager initialization of singleton
     public class SingletonEager
