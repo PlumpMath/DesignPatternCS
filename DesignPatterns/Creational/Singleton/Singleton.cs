@@ -2,7 +2,7 @@
 /// Singleton pattern is one of the simplest patterns. This ensures that a class has only one instance and provides a global point of access to it
 /// </summary>
 
-namespace DesignPatterns.Creational
+namespace DesignPatterns.Creational.Singleton
 {
     //eager initialization of singleton
     public class SingletonEager

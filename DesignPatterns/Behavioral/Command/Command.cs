@@ -12,7 +12,7 @@
 /// Receiver - This is a class that performs the Action associated with the request
 /// </summary>
 
-namespace DesignPatterns.Behavioral
+namespace DesignPatterns.Behavioral.Command
 { 
     public class Client
     {

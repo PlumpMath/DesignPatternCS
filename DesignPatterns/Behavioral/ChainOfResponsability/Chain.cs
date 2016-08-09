@@ -12,7 +12,7 @@
 /// 3-ConcreteHandler - These are concrete handlers classes inheried from Handler class. These include the functionality to handle some request and ass others to the next item in the chain of request
 /// </summary>
 
-namespace DesignPatterns.Behavioral
+namespace DesignPatterns.Behavioral.ChainOfResponsability
 {
     public abstract class Handler
     {

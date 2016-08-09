@@ -1,4 +1,4 @@
-﻿namespace DesignPatterns.Creational.Sample
+﻿namespace DesignPatterns.Creational.Prototype.Sample
 {
     public interface IEmployee
     {

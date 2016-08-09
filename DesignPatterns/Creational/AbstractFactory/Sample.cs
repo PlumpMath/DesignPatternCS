@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace DesignPatterns.Creational.Sample
+namespace DesignPatterns.Creational.AbstractFactory.Sample
 {
 
     public interface VehiculeFactory

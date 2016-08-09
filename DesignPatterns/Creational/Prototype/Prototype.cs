@@ -5,7 +5,7 @@
 /// We can cache the objec, returns its clone on next request and update the database as and when needed thus reducing database calls
 /// </summary>
 
-namespace DesignPatterns.Creational
+namespace DesignPatterns.Creational.Prototype
 {
     public interface Prototype
     {
