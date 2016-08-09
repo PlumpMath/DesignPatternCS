@@ -55,6 +55,14 @@
     <Compile Include="Creational\Singleton\Sample.cs" />
     <Compile Include="Creational\Singleton\Singleton.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Structural\Bridge\Bridge.cs" />
+    <Compile Include="Structural\Bridge\Sample.cs" />
+    <Compile Include="Structural\Composite\Composite.cs" />
+    <Compile Include="Structural\Composite\Sample.cs" />
+    <Compile Include="Structural\Decorator\Decorator.cs" />
+    <Compile Include="Structural\Decorator\Sample.cs" />
+    <Compile Include="Structural\Facade\Facade.cs" />
+    <Compile Include="Structural\Facade\Sample.cs" />
     <Compile Include="Structural\Flyweight\Flyweight.cs" />
     <Compile Include="Structural\Flyweight\Sample.cs" />
     <Compile Include="Structural\Proxy\Proxy.cs" />

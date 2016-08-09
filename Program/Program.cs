@@ -11,6 +11,7 @@ using DesignPatterns.Creational.Singleton.Sample;
 
 using DesignPatterns.Structural.Proxy.Sample;
 using DesignPatterns.Structural.Flyweight.Sample;
+using DesignPatterns.Structural.Facade.Sample;
 
 namespace UnitTests
 {
@@ -129,6 +130,11 @@ namespace UnitTests
             shape.Print();
             int NumObjs = sof.TotalObjectsCreated;
             Console.WriteLine("\nTotal No of Objects created = {0}", NumObjs);
+            Console.ReadKey();
+
+            //3 - Facade
+            CarFacade facade = new CarFacade();
+            facade.CreateCompleteCar();
             Console.ReadKey();
         }
     }
