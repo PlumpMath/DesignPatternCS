@@ -14,7 +14,7 @@
  8. ~~**State**: Change object behavior depending on its state~~
  9. ~~**Strategy**: Encapsulate algorithms within a class and make them interchangeable~~
  10. ~~**Template** Method: Define an algorithm skeleton and delegate algorithm steps to subclasses so that they may be overridden~~
- 11. ~~Visitor: Add new operations to classes without modifying them~~
+ 11. ~~**Visitor**: Add new operations to classes without modifying them~~
 2. **Creational**
  1. **Singleton**: Class with only one single possible instance
  2. **Prototype**: Clone or copy initialized instances
@@ -74,6 +74,8 @@ Singleton pattern is one of the simplest patterns. This ensures that a class has
 1. **Singleton** This is a class which is responsible for creating and maintaining its own unique instance.
 
 ###### When to use it?
+* Exactly one instance of a class is required.
+* Controlled access to a single object is necessary.
 
 ### Prototype
 
@@ -85,6 +87,8 @@ For Example: An object is to be  created after a costly database operation. We c
 2. **ConcretePrototype** This is a class which implements the Prototype interface for cloning itself.
 
 ###### When to use it?
+* The creation of each object is costly or complex.
+* A limited number of state combinations exist in an object.
 
 ### Abstract Factory
 
@@ -99,6 +103,10 @@ In Abstract Factory pattern an interface is responsible for creating a set of re
 5. **Client** THis is a class which use AbstractFactory and AbstractProduct interfaces to create a family of related objects
 
 ###### When to use it?
+* Create a set of related objects, or dependent objects which must be used together.
+* System should be configured to work with multiple families of products.
+* The creation of objects should be independent from the utilizing system.
+* Concrete classes should be decoupled from clients.
 
 ### Factory Method
 
