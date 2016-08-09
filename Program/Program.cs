@@ -12,6 +12,9 @@ using DesignPatterns.Creational.Singleton.Sample;
 using DesignPatterns.Structural.Proxy.Sample;
 using DesignPatterns.Structural.Flyweight.Sample;
 using DesignPatterns.Structural.Facade.Sample;
+using DesignPatterns.Structural.Bridge;
+using DesignPatterns.Structural.Adapter.Sample;
+using DesignPatterns.Structural.Decorator.Sample;
 
 namespace UnitTests
 {
@@ -136,6 +139,44 @@ namespace UnitTests
             CarFacade facade = new CarFacade();
             facade.CreateCompleteCar();
             Console.ReadKey();
+
+            //4 - Bridge
+            IMessageSender email = new EmailSender();
+            IMessageSender queue = new MSMQSender();
+            IMessageSender web = new WebServiceSender();
+            Message message = new SystemMessage();
+            message.Subject = "Test Message";
+            message.Body = "Hi, This is a Test Message";
+            message.MessageSender = email;
+            message.Send();
+            message.MessageSender = queue;
+            message.Send();
+            message.MessageSender = web;
+            message.Send();
+            UserMessage usermsg = new UserMessage();
+            usermsg.Subject = "Test Message";
+            usermsg.Body = "Hi, This is a Test Message";
+            usermsg.UserComments = "I hope you are well";
+            usermsg.MessageSender = email;
+            usermsg.Send();
+            Console.ReadKey();
+
+            //5 - Adapter
+            ITarget Itarget = new EmployeeAdapter();
+            ThirdPartyBillingSystem client = new ThirdPartyBillingSystem(Itarget);
+            client.ShowEmployeeList();
+            Console.ReadKey();
+
+            //6 - Decorator
+            HondaCity car = new HondaCity();
+            Console.WriteLine("Honda City base price are : {0}", car.Price);
+            SpecialOffer offer = new SpecialOffer(car);
+            offer.DiscountPercentage = 25;
+            offer.Offer = "25 % discount";
+            Console.WriteLine("{1} @ Diwali Special Offer and price are : {0} ", offer.Price, offer.Offer);
+            Console.ReadKey();
+
+
         }
     }
 }
