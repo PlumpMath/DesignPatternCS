@@ -45,8 +45,12 @@ This handles the request in traditional ways like as queuing and callbacks. This
 5. **Receiver** This is a class that performs the Action associated with the request
 
 ###### When to use it?
+* Need to implement callback functionalities.
+* Need to support Redo and Undo functionality for commands.
+* Sending requests to different receivers which can handle it in different ways.
+* Need for auditing and logging of all changes via commands.
 
-### Chain of command
+### Chain of Responsibility
 
 The chain of responsibility pattern is used to process a list or chain of various types of request and each of them may be handle by a different handler. This pattern decouples sender and receiver of a request vased on type of request.
 
@@ -57,6 +61,9 @@ In this pattern, normaly each receiver(handler) contains reference to anoher ree
 3. **ConcreteHandler** These are concrete handlers classes inheried from Handler class. These include the functionality to handle some request and ass others to the next item in the chain of request
 
 ###### When to use it?
+* A set of handlers to handle a request.
+* A scenario within you need to pass a request to one handler among a list of handlers at run-time based on certain conditions.
+* Exception handling system in C# is the good example of this pattern. Since an exception thrown by a piece of code in C# is handled by a set of try-catch block. Here catch blocks act as possible handlers to handle the exception.
 
 ## Creational Patterns
 
