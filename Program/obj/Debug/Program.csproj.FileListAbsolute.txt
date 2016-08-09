@@ -18,3 +18,11 @@ W:\GitHub\DesinPatternCS\Program\bin\Debug\UnitTests.pdb
 W:\GitHub\DesinPatternCS\Program\bin\Debug\DesignPatterns.dll
 W:\GitHub\DesinPatternCS\Program\bin\Debug\DesignPatterns.pdb
 W:\GitHub\DesinPatternCS\Program\obj\Debug\Program.csprojResolveAssemblyReference.cache
+E:\workspace\GitHub\DesignPatternCS\Program\bin\Debug\UnitTests.exe.config
+E:\workspace\GitHub\DesignPatternCS\Program\bin\Debug\UnitTests.exe
+E:\workspace\GitHub\DesignPatternCS\Program\bin\Debug\UnitTests.pdb
+E:\workspace\GitHub\DesignPatternCS\Program\bin\Debug\DesignPatterns.dll
+E:\workspace\GitHub\DesignPatternCS\Program\bin\Debug\DesignPatterns.pdb
+E:\workspace\GitHub\DesignPatternCS\Program\obj\Debug\Program.csprojResolveAssemblyReference.cache
+E:\workspace\GitHub\DesignPatternCS\Program\obj\Debug\UnitTests.exe
+E:\workspace\GitHub\DesignPatternCS\Program\obj\Debug\UnitTests.pdb

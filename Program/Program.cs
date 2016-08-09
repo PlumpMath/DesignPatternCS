@@ -1,4 +1,6 @@
-﻿using DesignPatterns.Behavioral.ChainOfResponsability.Sample;
+﻿using System;
+
+using DesignPatterns.Behavioral.ChainOfResponsability.Sample;
 using DesignPatterns.Behavioral.Command.Sample;
 
 using DesignPatterns.Creational.AbstractFactory.Sample;
@@ -7,8 +9,8 @@ using DesignPatterns.Creational.FactoryMethod.Sample;
 using DesignPatterns.Creational.Prototype.Sample;
 using DesignPatterns.Creational.Singleton.Sample;
 
-using System;
-
+using DesignPatterns.Structural.Proxy.Sample;
+using DesignPatterns.Structural.Flyweight.Sample;
 
 namespace UnitTests
 {
@@ -103,6 +105,30 @@ namespace UnitTests
             vehicleCreator.CreateVehicle();
             vehicle = vehicleCreator.GetVehicle();
             vehicle.ShowInfo();
+            Console.ReadKey();
+
+            //Structural
+            //1 - Proxy
+            ProxyClient proxy = new ProxyClient();
+            Console.WriteLine("Data from Proxy Client = {0}", proxy.GetData());
+            Console.ReadKey();
+
+            //2 - Flyweight
+            ShapeObjectFactory sof = new ShapeObjectFactory();
+            IShape shape = sof.GetShape("Rectangle");
+            shape.Print();
+            shape = sof.GetShape("Rectangle");
+            shape.Print();
+            shape = sof.GetShape("Rectangle");
+            shape.Print();
+            shape = sof.GetShape("Circle");
+            shape.Print();
+            shape = sof.GetShape("Circle");
+            shape.Print();
+            shape = sof.GetShape("Circle");
+            shape.Print();
+            int NumObjs = sof.TotalObjectsCreated;
+            Console.WriteLine("\nTotal No of Objects created = {0}", NumObjs);
             Console.ReadKey();
         }
     }

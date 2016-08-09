@@ -55,6 +55,10 @@
     <Compile Include="Creational\Singleton\Sample.cs" />
     <Compile Include="Creational\Singleton\Singleton.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Structural\Flyweight\Flyweight.cs" />
+    <Compile Include="Structural\Flyweight\Sample.cs" />
+    <Compile Include="Structural\Proxy\Proxy.cs" />
+    <Compile Include="Structural\Proxy\Sample.cs" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="Behavioral\ChainOfResponsability\Chain.PNG" />
@@ -68,9 +72,7 @@
     <Content Include="Creational\Singleton\Sample.PNG" />
     <Content Include="Creational\Singleton\Singleton.PNG" />
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="Structural\" />
-  </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.

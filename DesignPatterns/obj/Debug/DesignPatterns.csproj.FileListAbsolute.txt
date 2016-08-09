@@ -2,3 +2,8 @@ W:\GitHub\DesinPatternCS\DesignPatterns\bin\Debug\DesignPatterns.dll
 W:\GitHub\DesinPatternCS\DesignPatterns\bin\Debug\DesignPatterns.pdb
 W:\GitHub\DesinPatternCS\DesignPatterns\obj\Debug\DesignPatterns.dll
 W:\GitHub\DesinPatternCS\DesignPatterns\obj\Debug\DesignPatterns.pdb
+E:\workspace\GitHub\DesignPatternCS\DesignPatterns\bin\Debug\DesignPatterns.dll
+E:\workspace\GitHub\DesignPatternCS\DesignPatterns\bin\Debug\DesignPatterns.pdb
+E:\workspace\GitHub\DesignPatternCS\DesignPatterns\obj\Debug\DesignPatterns.csprojResolveAssemblyReference.cache
+E:\workspace\GitHub\DesignPatternCS\DesignPatterns\obj\Debug\DesignPatterns.dll
+E:\workspace\GitHub\DesignPatternCS\DesignPatterns\obj\Debug\DesignPatterns.pdb
