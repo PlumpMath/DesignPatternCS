@@ -1,6 +1,7 @@
 ﻿using System;
 
 /// <summary>
+/// 
 /// In this pattern a request is wrapped nder an object as a command and passed to invoker object. Invoker object ass the command to the appropriate object which can handle it and that object executes the command.
 /// This handles the request in traditional ways like as queuing and callbacks
 /// This pattern s commonly used in the menu systems of many applications
@@ -16,7 +17,7 @@
 /// Need to support Redo and Undo functionality for commands.
 /// Sending requests to different receivers which can handle it in different ways.
 /// Need for auditing and logging of all changes via commands.
-
+/// 
 /// </summary>
 
 namespace DesignPatterns.Behavioral.Command

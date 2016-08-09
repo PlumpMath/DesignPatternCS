@@ -10,11 +10,6 @@ W:\GitHub\DesinPatternCS\UnitTests\bin\Debug\DesignPatterns.Structural.pdb
 W:\GitHub\DesinPatternCS\UnitTests\obj\Debug\Program.csprojResolveAssemblyReference.cache
 W:\GitHub\DesinPatternCS\UnitTests\obj\Debug\UnitTests.exe
 W:\GitHub\DesinPatternCS\UnitTests\obj\Debug\UnitTests.pdb
-W:\GitHub\DesinPatternCS\Program\bin\Debug\UnitTests.exe.config
-W:\GitHub\DesinPatternCS\Program\obj\Debug\UnitTests.exe
-W:\GitHub\DesinPatternCS\Program\obj\Debug\UnitTests.pdb
-W:\GitHub\DesinPatternCS\Program\bin\Debug\UnitTests.exe
-W:\GitHub\DesinPatternCS\Program\bin\Debug\UnitTests.pdb
 W:\GitHub\DesinPatternCS\Program\bin\Debug\DesignPatterns.dll
 W:\GitHub\DesinPatternCS\Program\bin\Debug\DesignPatterns.pdb
 W:\GitHub\DesinPatternCS\Program\obj\Debug\Program.csprojResolveAssemblyReference.cache
@@ -26,3 +21,8 @@ E:\workspace\GitHub\DesignPatternCS\Program\bin\Debug\DesignPatterns.pdb
 E:\workspace\GitHub\DesignPatternCS\Program\obj\Debug\Program.csprojResolveAssemblyReference.cache
 E:\workspace\GitHub\DesignPatternCS\Program\obj\Debug\UnitTests.exe
 E:\workspace\GitHub\DesignPatternCS\Program\obj\Debug\UnitTests.pdb
+W:\GitHub\DesinPatternCS\Program\bin\Debug\Program.exe.config
+W:\GitHub\DesinPatternCS\Program\bin\Debug\Program.exe
+W:\GitHub\DesinPatternCS\Program\bin\Debug\Program.pdb
+W:\GitHub\DesinPatternCS\Program\obj\Debug\Program.exe
+W:\GitHub\DesinPatternCS\Program\obj\Debug\Program.pdb

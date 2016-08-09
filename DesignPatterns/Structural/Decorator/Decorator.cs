@@ -1,5 +1,5 @@
-﻿
-using System;
+﻿using System;
+
 /// <summary>
 /// 
 /// Decorator pattern is used to add new functionality to an existing object without changing its structure.
@@ -15,6 +15,7 @@ using System;
 /// Make changes to some objects in a class without affecting others.
 /// 
 /// </summary>
+
 namespace DesignPatterns.Structural.Decorator
 {
     public interface Component
