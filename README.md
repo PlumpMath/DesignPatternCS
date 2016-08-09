@@ -1,6 +1,6 @@
 # DesignPatternCS
 
-#### From. http://www.dotnet-tricks.com, http://www.tutorialspoint.com
+#### From. http://www.dotnet-tricks.com, http://www.tutorialspoint.com, http://www.dofactory.com
 
 ## Summary
 1. **Behavioral**
@@ -9,7 +9,7 @@
  3. ~~**Interpreter**: Include language elements and evaluate sentences in a given language~~
  4. ~~**Iterator**: Give sequential access to elements in a collection~~
  5. ~~**Mediator**: Encapsulates and simplifies communication between objects~~
- 6. ~~**Memento**: Undo modifications and restore an object to its initial state~~
+ 6. **Memento**: Undo modifications and restore an object to its initial state
  7. ~~**Observer**: Notify dependent objects of state changes~~
  8. ~~**State**: Change object behavior depending on its state~~
  9. ~~**Strategy**: Encapsulate algorithms within a class and make them interchangeable~~
@@ -22,10 +22,10 @@
  4. **Factory Method**: Create instances of derived classes
  5. **Builder**: Separate representation and object construction
 3. **Structural**
- 1. ~~**Adapter**: Match interfaces of classes with different interfaces~~
- 2. ~~**Bridge**: Separate implementation and object interfaces~~
+ 1. **Adapter**: Match interfaces of classes with different interfaces
+ 2. **Bridge**: Separate implementation and object interfaces
  3. ~~**Composite**: Simple and composite objects tree~~
- 4. ~~**Decorator**: Dynamically add responsibilities to objects~~
+ 4. **Decorator**: Dynamically add responsibilities to objects
  5. **Facade**: Class that represents subclasses and subsystems
  6. **Flyweight**: Minimize memory usage by sharing as much data as possible with similar objects
  7. **Proxy**: Object that represents another object
