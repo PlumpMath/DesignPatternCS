@@ -173,10 +173,10 @@ Facade pattern hides the complexities of the system and provides an interface to
 
 The facade design pattern is particularly used when a system is very complex or difficult to understand because system has a large number of interdependent classes or its source code is unavailable.
 
-1. Complex System - A library of subsystems.
-2. SubsystemA, SubsystemB, SubsystemC - These are classes within complex system and offer detailed operations.
-3. Façade - This is a wrapper class which wrapper class which contains a set of members which are required by client.
-4. Client - This is a class which calls the high-level operations in the Façade.
+1. **Complex System** - A library of subsystems.
+2. **SubsystemA, SubsystemB, SubsystemC** - These are classes within complex system and offer detailed operations.
+3. **Façade** - This is a wrapper class which wrapper class which contains a set of members which are required by client.
+4. **Client** - This is a class which calls the high-level operations in the Façade.
 
 ###### What is it for? 
 * A simple interface is required to access to a complex system.
