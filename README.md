@@ -1,6 +1,6 @@
 # DesignPatternCS
 
-#### From. http://www.dotnet-tricks.com
+#### From. http://www.dotnet-tricks.com, http://www.tutorialspoint.com
 
 ## Summary
 1. Behavioral
@@ -19,8 +19,8 @@
  1. Singleton: Class with only one single possible instance
  2. Prototype: Clone or copy initialized instances
  3. Abstract factory: Create instances of classes belonging to different families
- 4. ~~Factory Method: Create instances of derived classes~~
- 5. ~~Builder: Separate representation and object construction~~
+ 4. Factory Method: Create instances of derived classes
+ 5. Builder: Separate representation and object construction
 3. Structural
  1. ~~Adapter: Match interfaces of classes with different interfaces~~
  2. ~~Bridge: Separate implementation and object interfaces~~
