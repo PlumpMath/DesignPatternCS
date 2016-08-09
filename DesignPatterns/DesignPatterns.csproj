@@ -44,7 +44,7 @@
     <Compile Include="Behavioral\ChainOfResponsability\Sample.cs" />
     <Compile Include="Behavioral\Command\Command.cs" />
     <Compile Include="Behavioral\Command\Sample.cs" />
-    <Compile Include="Creational\AbstractFactory\Factory.cs" />
+    <Compile Include="Creational\AbstractFactory\AbstractFactory.cs" />
     <Compile Include="Creational\AbstractFactory\Sample.cs" />
     <Compile Include="Creational\Prototype\Prototype.cs" />
     <Compile Include="Creational\Prototype\Sample.cs" />
@@ -57,18 +57,32 @@
     <Content Include="Behavioral\ChainOfResponsability\Sample.PNG" />
     <Content Include="Behavioral\Command\Command.PNG" />
     <Content Include="Behavioral\Command\Sample.PNG" />
-    <Content Include="Creational\AbstractFactory\Factory.PNG" />
+    <Content Include="Creational\AbstractFactory\AbstractFactory.PNG" />
     <Content Include="Creational\AbstractFactory\Sample.PNG" />
+    <Content Include="Creational\Builder\Builder.PNG" />
+    <Content Include="Creational\Builder\Sample.PNG" />
+    <Content Include="Creational\FactoryMethod\FactoryMethod.PNG" />
+    <Content Include="Creational\FactoryMethod\Sample.PNG" />
     <Content Include="Creational\Prototype\Prototype.PNG" />
     <Content Include="Creational\Prototype\Sample.PNG" />
     <Content Include="Creational\Singleton\Sample.PNG" />
     <Content Include="Creational\Singleton\Singleton.PNG" />
+    <Content Include="Structural\Adapter\Adapter.PNG" />
+    <Content Include="Structural\Adapter\Sample.PNG" />
+    <Content Include="Structural\Bridge\Bridge.PNG" />
+    <Content Include="Structural\Bridge\Sample.PNG" />
+    <Content Include="Structural\Composite\Composite.PNG" />
+    <Content Include="Structural\Composite\Sample.PNG" />
+    <Content Include="Structural\Decorator\Decorator.PNG" />
+    <Content Include="Structural\Decorator\Sample.PNG" />
+    <Content Include="Structural\Facade\Facade.PNG" />
+    <Content Include="Structural\Facade\Sample.PNG" />
+    <Content Include="Structural\Flyweight\Flyweight.PNG" />
+    <Content Include="Structural\Flyweight\Sample.PNG" />
+    <Content Include="Structural\Proxy\Proxy.PNG" />
+    <Content Include="Structural\Proxy\Sample.PNG" />
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="Creational\Builder\" />
-    <Folder Include="Creational\FactoryMethod\" />
-    <Folder Include="Structural\" />
-  </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.

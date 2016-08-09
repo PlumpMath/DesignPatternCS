@@ -1,5 +1,7 @@
 ﻿/// <summary>
 /// Singleton pattern is one of the simplest patterns. This ensures that a class has only one instance and provides a global point of access to it
+/// 
+/// Singleton This is a class which is responsible for creating and maintaining its own unique instance.
 /// </summary>
 
 namespace DesignPatterns.Creational

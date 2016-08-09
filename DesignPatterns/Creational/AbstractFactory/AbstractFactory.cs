@@ -1,4 +1,7 @@
 ﻿/// <summary>
+/// Abstract Factory patterns acts a super-factory which creates other factories. This pattern is also called as Factory of factories.
+/// In Abstract Factory pattern an interface is responsible for creating a set of related objects, or dependent objects without specifying their concrete classes.
+/// 
 /// Abstract Factory - This is an interface which is used to create abstract product
 /// Concreate Factory - This is a class which implements the AbstractFactory interfacee to create concrete products
 /// AbstractProduct - This is an interface which declares a type of product
