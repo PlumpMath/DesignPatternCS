@@ -1,3 +1,5 @@
+<a href="https://github.com/frgrz/DesignPatternCS">Back</a>
+
 ### Flyweight
 
 Flyweight pattern is used to reduce the number of objects created, to decrease memory and resource usage. bAs a result it increase performance. Flyweight pattern try to reuse already existing similar kind objects by storing them and creates new object when no matching object is found.
