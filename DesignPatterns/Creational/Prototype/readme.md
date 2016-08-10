@@ -7,9 +7,8 @@ For Example: An object is to be  created after a costly database operation. We c
 1. **Prototype** This is an interface which is used for the types of object that can be cloned itself.
 2. **ConcretePrototype** This is a class which implements the Prototype interface for cloning itself.
 <p align="center">
-![alt tag](https://github.com/frgrz/DesignPatternCS/blob/master/DesignPatterns/Creational/Template/Template.PNG)
+![alt tag](https://github.com/frgrz/DesignPatternCS/blob/master/DesignPatterns/Creational/Prototype/Prototype.PNG)
 </p>
-
 
 ###### When to use it?
 * The creation of each object is costly or complex.
