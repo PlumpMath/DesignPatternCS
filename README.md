@@ -16,16 +16,16 @@
  10. ~~**Template** Method: Define an algorithm skeleton and delegate algorithm steps to subclasses so that they may be overridden~~
  11. ~~**Visitor**: Add new operations to classes without modifying them~~
 2. **Creational**
- 1. **Singleton**: Class with only one single possible instance
- 2. **Prototype**: Clone or copy initialized instances
- 3. **Abstract factory**: Create instances of classes belonging to different families
- 4. **Factory Method**: Create instances of derived classes
+ 1. **<a href="https://github.com/frgrz/DesignPatternCS/tree/master/DesignPatterns/Creational/Singleton">Singleton</a>**: Class with only one single possible instance
+ 2. **<a href="https://github.com/frgrz/DesignPatternCS/tree/master/DesignPatterns/Creational/Prototype">Prototype</a>**: Clone or copy initialized instances
+ 3. **<a href="https://github.com/frgrz/DesignPatternCS/tree/master/DesignPatterns/Creational/AbstractFactory">Abstract factory</a>**: Create instances of classes belonging to different families
+ 4. **<a href="https://github.com/frgrz/DesignPatternCS/tree/master/DesignPatterns/Creational/FactoryMethod">Factory Method</a>**: Create instances of derived classes
  5. ~~**Builder**: Separate representation and object construction~~
 3. **Structural**
  1. **Adapter**: Match interfaces of classes with different interfaces
  2. **Bridge**: Separate implementation and object interfaces
  3. ~~**Composite**: Simple and composite objects tree~~
  4. **Decorator**: Dynamically add responsibilities to objects
- 5. **<a href="https://github.com/frgrz/DesignPatternCS/tree/master/DesignPatterns/Structural/Proxy">Facade</a>**: Class that represents subclasses and subsystems
+ 5. **<a href="https://github.com/frgrz/DesignPatternCS/tree/master/DesignPatterns/Structural/Facade">Facade</a>**: Class that represents subclasses and subsystems
  6. **<a href="https://github.com/frgrz/DesignPatternCS/tree/master/DesignPatterns/Structural/Flyweight">Flyweight</a>**: Minimize memory usage by sharing as much data as possible with similar objects
  7. **<a href="https://github.com/frgrz/DesignPatternCS/tree/master/DesignPatterns/Structural/Proxy">Proxy</a>**: Object that represents another object
