@@ -4,8 +4,8 @@
 
 ## Summary
 1. **Behavioral**
- 1. **Command**: Encapsulate a method call as an object containing all necessary information
- 2. **Chain of Responsibility**: Pass requests between command and processing objects within a chain of objects
+ 1. **<a href="https://github.com/frgrz/DesignPatternCS/tree/master/DesignPatterns/Behavioral/Command">Command</a>**: Encapsulate a method call as an object containing all necessary information
+ 2. **<a href="https://github.com/frgrz/DesignPatternCS/tree/master/DesignPatterns/Behavioral/ChainOfResponsibility">Chain of Responsibility</a>**: Pass requests between command and processing objects within a chain of objects
  3. ~~**Interpreter**: Include language elements and evaluate sentences in a given language~~
  4. ~~**Iterator**: Give sequential access to elements in a collection~~
  5. ~~**Mediator**: Encapsulates and simplifies communication between objects~~
@@ -26,6 +26,6 @@
  2. **Bridge**: Separate implementation and object interfaces
  3. ~~**Composite**: Simple and composite objects tree~~
  4. **Decorator**: Dynamically add responsibilities to objects
- 5. **Facade**: Class that represents subclasses and subsystems
- 6. **Flyweight**: Minimize memory usage by sharing as much data as possible with similar objects
+ 5. **<a href="https://github.com/frgrz/DesignPatternCS/tree/master/DesignPatterns/Structural/Proxy">Facade</a>**: Class that represents subclasses and subsystems
+ 6. **<a href="https://github.com/frgrz/DesignPatternCS/tree/master/DesignPatterns/Structural/Flyweight">Flyweight</a>**: Minimize memory usage by sharing as much data as possible with similar objects
  7. **<a href="https://github.com/frgrz/DesignPatternCS/tree/master/DesignPatterns/Structural/Proxy">Proxy</a>**: Object that represents another object
