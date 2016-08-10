@@ -28,4 +28,4 @@
  4. **Decorator**: Dynamically add responsibilities to objects
  5. **Facade**: Class that represents subclasses and subsystems
  6. **Flyweight**: Minimize memory usage by sharing as much data as possible with similar objects
- 7. **Proxy**: Object that represents another object
+ 7. **<a href="https://github.com/frgrz/DesignPatternCS/tree/master/DesignPatterns/Structural/Proxy">Proxy</a>**: Object that represents another object
