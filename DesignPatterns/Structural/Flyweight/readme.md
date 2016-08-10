@@ -13,3 +13,9 @@ Extrinsic data is computed on the fly means at runtime and it is held outside of
 <p align="center">
 ![alt tag](https://github.com/frgrz/DesignPatternCS/blob/master/DesignPatterns/Structural/Flyweight/Flyweight.PNG)
 </p>
+
+
+###### When to use it?
+* Flyweight is used when there is a need to create a large number of objects of almost similar nature and storage cost is high.
+* A few shared objects can replace many unshared ones.
+* Most of the state can be kept on disk or calculated at runtime.
